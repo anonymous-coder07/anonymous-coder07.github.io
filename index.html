@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="og.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <title>Portfolio | Anonymous Coder's Portfolio</title>
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="container">
+
+            <div class="small-bold-text banner-text">📣 Welcome To Anonymous Coder's Portfolio!</div>
+        </div>
+    </div>
+    <!-- nav bar -->
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="portfolio-logo">
+                <img src="./assets/og.png" alt="company logo">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Products</a></li>
+                    <li><a href="#" class="hover-link">Customers</a></li>
+                    <li><a href="#" class="hover-link">Pricing</a></li>
+                    <li><a href="#" class="hover-link">Resources</a></li>
+                    <li><a href="#" class="hover-link secondary-button">Sign In</a></li>
+                    <li><a href="https://prathamcoder333.github.io/Glassmorphic-Signup_Page/" class="hover-link primary-button">Sign up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-section flex">
+          <div class="header-left">
+            <p>Hi , I'm Anonymous Coder</p><br>
+            <p>I am a</p><span id="element"></span>
+          </div>  
+          <div class="header-right">
+            <img src="assets/programmer.png" alt="">
+          </div>
+        </div>
+    </header>
+    <hr size="4"class="hr">
+
+
+    <section class="companies-section">
+        <div class="container">
+            <h1 class="about">ABOUT</h1>
+            <div class="small-bold-text companies-header"><p class="a">Hello Guys , I am Prathamesh and I Welcome you all to my digital oasis, where creativity and innovation converge!</p> 
+                <p class="a">I am thrilled to present my portfolio—a symphony of my journey through the realms of design, technology, and imagination. With each project, I strive to breathe life into ideas, melding form and function to craft immersive experiences.</p> <p class="a">Join me on this visual sojourn as we explore the tapestry of my work, woven with passion and dedication. Whether you're here to marvel at the pixels, ponder the code, or simply indulge in the beauty of creation.</p><p class="a"> I invite you to wander through these virtual halls and discover the essence of my artistic expression.</p></div>
+        </div>
+    </section>
+    <br>
+    <hr class="hr">
+
+    <!-- Big Features Section -->
+    <h1 class="about">EXPERIENCE</h1>
+    <section class="big-features-section">
+        <div class="container flex big-features-container">
+            <div class="feature-img">
+                <img src="./assets/asset 18.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h3>Google LLC</h3>
+                <p class="experience">I worked at Google LLC as Web Developer from 2012 - 2015.</p>
+            </div>
+        </div>
+    </section>
+    <section class="big-features-section">
+        <div class="container flex big-features-container hello">
+            
+            <div class="feature-desc flex">
+                <h3>Amazon </h3>
+                <p>I also worked at Amozon from 2016 - 2022 as Web Development Managaer.</p>
+            </div>
+            <div class="feature-img">
+                <img src="./assets/asset 21.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container flex cta-section-container">
+            <h1>Websites which I made</h1>
+            <ol>
+                <li><a href="https://anonymouscoder.me/" class="primary-button">Portfolio Website</a></li>
+                <br>
+                <li><a href="https://prathamcoder333.github.io/Glassmorphic-Signup_Page/" class="primary-button">Sign Up Page</a></li>
+                <br>
+                <li><a href="https://prathamcoder333.github.io/Grid-Portfolio/" class="primary-button">Grid Portfolio</a></li>
+            </ol>
+        </div>
+    </section>
+    <!-- Sub Footer -->
+    <div class="sub-footer">
+        <div class="container flex subfooter-container">
+            <a href="#" class="hover-link">Privacy Policy</a>
+            <a href="#" class="hover-link">Terms & Condtions</a>
+            <a href="#" class="hover-link">Security Information</a>
+            <a href="https://twitter.com/AnonymousBoy077" class="hover-link"><i class="fa-brands fa-twitter fa-beat"></i></a>
+            <a href="https://www.instagram.com/_pratham.og/" class="hover-link"><i class="fa-brands fa-instagram fa-beat"></i></a>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://kit.fontawesome.com/7cebfef8bf.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks= document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Programmer. ', 'Gamer. ','Student. ','Web Developer. '],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
